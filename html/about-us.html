@@ -1,0 +1,492 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Studiova</title>
+  <link rel="shortcut icon" type="image/png" href="../assets/images/logos/favicon.svg" />
+  <link rel="stylesheet" href="../assets/libs/owl.carousel/dist/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="../assets/libs/aos-master/dist/aos.css">
+  <link rel="stylesheet" href="../assets/css/styles.css" />
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header class="header border-4 border-primary border-top position-fixed start-0 top-0 w-100">
+    <div class="container">
+      <div class="header-wrapper d-flex align-items-center justify-content-between">
+        <div class="logo">
+          <a href="index.html" class="logo-white">
+            <img src="../assets/images/logos/logo-white.svg" alt="logo" class="img-fluid">
+          </a>
+          <a href="index.html" class="logo-dark">
+            <img src="../assets/images/logos/logo-dark.svg" alt="logo" class="img-fluid">
+          </a>
+        </div>
+        <div class="d-flex align-items-center gap-4">
+
+          <div class="btn-group">
+            <button
+              class="btn btn-secondary toggle-menu round-45 p-2 d-flex align-items-center justify-content-center bg-white rounded-circle"
+              type="button" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false">
+              <iconify-icon icon="solar:hamburger-menu-line-duotone" class="menu-icon fs-8 text-dark"></iconify-icon>
+            </button>
+            <!--ul class="dropdown-menu dropdown-menu-end p-4">
+              <div class="d-flex flex-column gap-6">
+                <div class="hstack justify-content-between border-bottom pb-6">
+                  <p class="mb-0 fs-5 text-dark">Menu</p>
+                  <button type="button" class="btn-close opacity-75" aria-label="Close"></button>
+                </div>
+                <div class="d-flex flex-column gap-3">
+                  <ul class="header-menu list-unstyled mb-0 d-flex flex-column gap-2">
+                    <li class="header-item">
+                      <a href="index.html" class="header-link hstack gap-2 fs-7 fw-bold text-dark"><img
+                          src="../assets/images/svgs/secondary-leaf.svg" alt="" width="20" height="20"
+                          class="img-fluid animate-spin">Home</a>
+                    </li>
+                    <li class="header-item">
+                      <a href="about-us.html" aria-current="true"
+                        class="header-link active hstack gap-2 fs-7 fw-bold text-dark"><img
+                          src="../assets/images/svgs/secondary-leaf.svg" alt="" width="20" height="20"
+                          class="img-fluid animate-spin">About</a>
+                    </li>
+                    <li class="header-item">
+                      <a href="projects.html" class="header-link hstack gap-2 fs-7 fw-bold text-dark"><img
+                          src="../assets/images/svgs/secondary-leaf.svg" alt="" width="20" height="20"
+                          class="img-fluid animate-spin">Projects</a>
+                    </li>
+                    <li class="header-item">
+                      <a href="blog.html" class="header-link hstack gap-2 fs-7 fw-bold text-dark"><img
+                          src="../assets/images/svgs/secondary-leaf.svg" alt="" width="20" height="20"
+                          class="img-fluid animate-spin">Blog</a>
+                    </li>
+                    <li class="header-item">
+                      <a href="index.html" class="header-link hstack gap-2 fs-7 fw-bold text-dark"><img
+                          src="../assets/images/svgs/secondary-leaf.svg" alt="" width="20" height="20"
+                          class="img-fluid animate-spin">Services</a>
+                    </li>
+                    <li class="header-item">
+                      <a href="contact.html" class="header-link hstack gap-2 fs-7 fw-bold text-dark"><img
+                          src="../assets/images/svgs/secondary-leaf.svg" alt="" width="20" height="20"
+                          class="img-fluid animate-spin">Contact</a>
+                    </li>
+                    <li class="header-item">
+                      <a href="index.html" class="header-link hstack gap-2 fs-7 fw-bold text-dark"><img
+                          src="../assets/images/svgs/secondary-leaf.svg" alt="" width="20" height="20"
+                          class="img-fluid animate-spin">Docs</a>
+                    </li>
+                  </ul>
+                  <div class="hstack gap-3">
+                    <a href="sign-in.html"
+                      class="btn btn-outline-light fs-6 bg-white px-3 py-2 text-dark w-50 hstack justify-content-center">Sign
+                      In</a>
+                    <a href="sign-up.html"
+                      class="btn btn-dark text-white fs-6 bg-dark px-3 py-2 w-50 hstack justify-content-center">Sign
+                      Up</a>
+                  </div>
+                </div>
+                <div>
+                  <a class="text-dark" href="tel:+1-212-456-7890">+1-212-456-7890</a>
+                  <a class="fs-8 text-dark fw-bold" href="mailto:info@wrappixel.com">info@wrappixel.com</a>
+                </div>
+              </div>
+            </ul!-->
+
+            <ul class="dropdown-menu dropdown-menu-end p-4">
+              <div class="d-flex flex-column gap-6">
+                <div class="hstack justify-content-between border-bottom pb-6">
+                  <p class="mb-0 fs-5 text-dark">Menu</p>
+                  <button type="button" class="btn-close opacity-75" aria-label="Close"></button>
+                </div>
+            
+                <div class="d-flex flex-column gap-3">
+                  <ul class="header-menu list-unstyled mb-0 d-flex flex-column gap-2">
+                    <!-- Home -->
+                    <li class="header-item">
+                      <a href="index.html" class="header-link hstack gap-2 fs-7 fw-bold text-dark">
+                        <img src="../assets/images/svgs/secondary-leaf.svg" alt="" width="20" height="20" class="img-fluid animate-spin">
+                        Home
+                      </a>
+                    </li>
+            
+                    <!-- About -->
+                    <li class="header-item">
+                      <a href="about-us.html" aria-current="true" class="header-link active hstack gap-2 fs-7 fw-bold text-dark">
+                        <img src="../assets/images/svgs/secondary-leaf.svg" alt="" width="20" height="20" class="img-fluid animate-spin">
+                        About
+                      </a>
+                    </li>
+            
+                    <!-- Projects -->
+                    <li class="header-item">
+                      <a href="projects.html" class="header-link hstack gap-2 fs-7 fw-bold text-dark">
+                        <img src="../assets/images/svgs/secondary-leaf.svg" alt="" width="20" height="20" class="img-fluid animate-spin">
+                        Projects
+                      </a>
+                    </li>
+            
+                    <!-- Contact -->
+                    <li class="header-item">
+                      <a href="contact.html" class="header-link hstack gap-2 fs-7 fw-bold text-dark">
+                        <img src="../assets/images/svgs/secondary-leaf.svg" alt="" width="20" height="20" class="img-fluid animate-spin">
+                        Contact
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </ul>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!--  Page Wrapper -->
+  <div class="page-wrapper overflow-hidden">
+
+    
+    
+
+    <!--  Banner Section -->
+    <section class="banner-section banner-inner-section position-relative overflow-hidden d-flex align-items-end"
+      style="background-image: url(../assets/images/backgrounds/aboutus-banner.jpg);">
+      <div class="container">
+        <div class="d-flex flex-column gap-4 pb-5 pb-xl-10 position-relative z-1">
+          <div class="row align-items-center">
+            <div class="col-xl-4">
+              <div class="d-flex align-items-center gap-4" data-aos="fade-up" data-aos-delay="100"
+                data-aos-duration="1000">
+                <img src="../assets/images/svgs/primary-leaf.svg" alt="" class="img-fluid animate-spin">
+                <p class="mb-0 text-white fs-5 text-opacity-70">Why would'nt <span class="text-primary">GOD
+                    </span> rest on the 7th day if he had to create someone as beattiful as this, I mean just 
+                    take a look at her!! The same God that turned water into wine, will definitely turn her to mine someday!</p>
+
+              </div>
+            </div>
+          </div>
+          <div class="d-flex align-items-end gap-3" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
+            <h1 class="mb-0 fs-16 text-white lh-1">Cruz</h1>
+            <a href="javascript:void(0)" class="p-1 ps-7 bg-primary rounded-pill">
+              <span class="bg-white round-52 rounded-circle d-flex align-items-center justify-content-center">
+                <iconify-icon icon="lucide:arrow-up-right" class="fs-8 text-dark"></iconify-icon>
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--  About Content Section -->
+    <section class="about-content py-5 py-lg-11 py-xl-12">
+      <div class="container">
+        <div class="d-flex flex-column gap-5 gap-xl-11 gap-xxl-12">
+          <div class="row gap-4 gap-lg-0">
+            <div class="col-lg-4">
+              <h2 class="fs-13 mb-0" data-aos="fade-right" data-aos-delay="200" data-aos-duration="1000">Rojano.</h2>
+            </div>
+            <div class="col-lg-8">
+              <div class="d-flex flex-column gap-4 gap-lg-5" data-aos="fade-up" data-aos-delay="200"
+                data-aos-duration="1000">
+                <p class="mb-0 fs-5 text-dark">
+                  Someone will love you so deeply, they'll say show me your wounds and and I'll kneel and kiss every single one of them.
+                  They'll heal every blow you took and rewrite every word you crossed out that said you were'nt worthy. 
+                  There's someone who will hold you like you dreamt of holding your future new born; gently, fully, like its sacred
+                  The way God has held you through every silent battle, every night you didn't know how to pray, this love would'nt rush you! 
+                  It would'nt confuse you, it would'nt question your worth. This love, will feel magical!
+                </p>
+                <p class="mb-0 fs-5 text-dark">
+                  Just so you know, Abba said you're about to do it. All the things you prayed for in the quiet, all the whispers you thought went unheard are about
+                  to be shouted back into your life as blessing! What you planted in tears will bloom in joy, what you carried in silence will be celebrated in the open!
+                  The doors you thought were closed, they're swinging wide open, I pray that light answers you so strong you'll never doubt the dark again, and may every answered prayer remind you,that God always had you!
+
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="row gx-xl-5">
+            <div class="col-md-6 col-lg-4 mb-8 mb-lg-0">
+              <div class="d-flex flex-column gap-7" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+                <h2 class="mb-0 fs-13 pb-7 border-bottom">09.28.25</span></h2>
+                <div class="d-flex flex-column gap-3">
+                  <h4 class="mb-0">Mattew 23</h4>
+                  <p class="mb-0">We are like the pharisees, we go our own ways. Know Jesus; become like him. Only Jesuscan make us more like him.
+                    Why are you going off course? It is possible to have no relationship with Jesus, but still dress like someone who does.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-8 mb-lg-0">
+              <div class="d-flex flex-column gap-7" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
+                <h2 class="mb-0 fs-13 pb-7 border-bottom">09.02.25</span></h2>
+                <div class="d-flex flex-column gap-3">
+                  <h4 class="mb-0">Proverbs 23</h4>
+                  <p class="mb-0">There are benefits to disciple. Wisdom is often seen in the words we speak. Do not be jealous of sinners.
+                    "Comparing is dangerous because you can end up comparing where God has you, to where the enemy has somone else".
+
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-8 mb-lg-0">
+              <div class="d-flex flex-column gap-7" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
+                <h2 class="mb-0 fs-13 pb-7 border-bottom">08.21.25</span></h2>
+                <div class="d-flex flex-column gap-3">
+                  <h4 class="mb-0">Proverbs 21</h4>
+                  <p class="mb-0">How we treat other people is more important than how we perform religious ceremonies.
+                    In verse 17, wine & oil represent the luxries of life. The person who loves pleasure, lacks discipline in their life.
+                    Don't let the luxries of life matter more than what matters most.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--  About Img Section -->
+    <section class="about-img">
+      <img src="../assets/images/about/about-img.jpg" alt="" class="w-100 object-fit-cover">
+      <div class="marquee w-100 d-flex align-items-center overflow-hidden bg-primary py-4">
+        <div class="marquee-content d-flex align-items-center gap-8">
+          <div class="hstack gap-4 flex-shrink-0">
+            <h4 class="mb-0">Matthew 23</h4>
+            <span class="round-10 bg-dark bg-opacity-10 rounded-circle flex-shrink-0"></span>
+          </div>
+          <div class="hstack gap-4 flex-shrink-0">
+            <h4 class="mb-0">Proverbs 23</h4>
+            <span class="round-10 bg-dark bg-opacity-10 rounded-circle flex-shrink-0"></span>
+          </div>
+          <div class="hstack gap-4 flex-shrink-0">
+            <h4 class="mb-0">Proverbs 21 </h4>
+              <span class="round-10 bg-dark bg-opacity-10 rounded-circle flex-shrink-0"></span>
+          </div>
+          <div class="hstack gap-4 flex-shrink-0">
+            <h4 class="mb-0">Proverbs 1</h4>
+            <span class="round-10 bg-dark bg-opacity-10 rounded-circle flex-shrink-0"></span>
+          </div>
+          <div class="hstack gap-4 flex-shrink-0">
+            <h4 class="mb-0">Proverbs 2</h4>
+            <span class="round-10 bg-dark bg-opacity-10 rounded-circle flex-shrink-0"></span>
+          </div>
+          <div class="hstack gap-4 flex-shrink-0">
+            <h4 class="mb-0">Proverbs 9</h4>
+            <span class="round-10 bg-dark bg-opacity-10 rounded-circle flex-shrink-0"></span>
+          </div>
+          <div class="hstack gap-4 flex-shrink-0">
+            <h4 class="mb-0">Jeremiah 29:11</h4>
+            <span class="round-10 bg-dark bg-opacity-10 rounded-circle flex-shrink-0"></span>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+
+    <!--  Meet our team Section -->
+    <section class="meet-our-team py-5 py-lg-11 py-xl-12">
+      <div class="container">
+        <div class="d-flex flex-column gap-5 gap-xl-11">
+          <div class="row gap-7 gap-xl-0">
+            <div class="col-xl-4 col-xxl-4">
+              <div class="d-flex align-items-center gap-7 py-2" data-aos="fade-right" data-aos-delay="100"
+                data-aos-duration="1000">
+                <span
+                  class="round-36 flex-shrink-0 text-dark rounded-circle bg-primary hstack justify-content-center fw-medium">06</span>
+                <hr class="border-line bg-white">
+                <span class="badge text-bg-dark">Memories</span>
+              </div>
+            </div>
+            <div class="col-xl-8 col-xxl-7">
+              <div class="row">
+                <div class="col-xxl-8">
+                  <div class="d-flex flex-column gap-6" data-aos="fade-up" data-aos-delay="100"
+                    data-aos-duration="1000">
+                    <h2 class="mb-0"> Stories </h2>
+                    <p class="fs-5 mb-0 text-opacity-70"> Let's put you on hold for a second, may your friends and family be blessed 
+                      beyond measure, may every "one day" they whispered turn into "today" they walk in, may their health be stable, their joy contagious
+                      and their peace stretched wide open, even worries get lost in it. May they laugh more, heal deeper, and know they are surrounded by love 
+                      even when no one says it out loud. You've poured into so many, now may the overflow reach them too.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 col-xl-3 mb-7 mb-xl-0">
+              <div class="meet-team d-flex flex-column gap-4" data-aos="fade-up" data-aos-delay="100"
+                data-aos-duration="1000">
+                <div class="meet-team-img position-relative overflow-hidden">
+                  <img src="../assets/images/team/team-img-1.jpg" alt="team-img" class="img-fluid w-100">
+                  <div class="meet-team-overlay p-7 d-flex flex-column justify-content-end">
+                    <ul class="social list-unstyled mb-0 hstack gap-2 justify-content-end">
+                      <li><a href="#!"
+                          class="btn bg-white p-2 round-45 rounded-circle hstack justify-content-center"><img
+                            src="../assets/images/svgs/icon-twitter.svg" alt="twitter"></a></li>
+                      <li><a href="#!"
+                          class="btn bg-white p-2 round-45 rounded-circle hstack justify-content-center"><img
+                            src="../assets/images/svgs/icon-be.svg" alt="be"></a></li>
+                      <li><a href="#!"
+                          class="btn bg-white p-2 round-45 rounded-circle hstack justify-content-center"><img
+                            src="../assets/images/svgs/icon-linkedin.svg" alt="linkedin"></a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="meet-team-details">
+                  <h4 class="mb-0">Centrada en la familia</h4>
+                  <p class="mb-0">Creció arropada por abrazos y risas; en su casa, cuidarse mutuamente no era excepción,
+                     era la regla del corazón.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-xl-3 mb-7 mb-xl-0">
+              <div class="meet-team d-flex flex-column gap-4" data-aos="fade-up" data-aos-delay="200"
+                data-aos-duration="1000">
+                <div class="meet-team-img position-relative overflow-hidden">
+                  <img src="../assets/images/team/team-img-2.jpg" alt="team-img" class="img-fluid w-100">
+                  <div class="meet-team-overlay p-7 d-flex flex-column justify-content-end">
+                    <ul class="social list-unstyled mb-0 hstack gap-2 justify-content-end">
+                      <li><a href="#!"
+                          class="btn bg-white p-2 round-45 rounded-circle hstack justify-content-center"><img
+                            src="../assets/images/svgs/icon-twitter.svg" alt="twitter"></a></li>
+                      <li><a href="#!"
+                          class="btn bg-white p-2 round-45 rounded-circle hstack justify-content-center"><img
+                            src="../assets/images/svgs/icon-be.svg" alt="be"></a></li>
+                      <li><a href="#!"
+                          class="btn bg-white p-2 round-45 rounded-circle hstack justify-content-center"><img
+                            src="../assets/images/svgs/icon-linkedin.svg" alt="linkedin"></a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="meet-team-details">
+                  <h4 class="mb-0">Formada por la fe</h4>
+                  <p class="mb-0"> Desde pequeña aprendió a hablar con Dios, a dar las gracias por lo sencillo y a mirar a
+                     cada persona con ternura.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-xl-3 mb-7 mb-xl-0">
+              <div class="meet-team d-flex flex-column gap-4" data-aos="fade-up" data-aos-delay="300"
+                data-aos-duration="1000">
+                <div class="meet-team-img position-relative overflow-hidden">
+                  <img src="../assets/images/team/team-img-3.jpg" alt="team-img" class="img-fluid w-100">
+                  <div class="meet-team-overlay p-7 d-flex flex-column justify-content-end">
+                    <ul class="social list-unstyled mb-0 hstack gap-2 justify-content-end">
+                      <li><a href="#!"
+                          class="btn bg-white p-2 round-45 rounded-circle hstack justify-content-center"><img
+                            src="../assets/images/svgs/icon-twitter.svg" alt="twitter"></a></li>
+                      <li><a href="#!"
+                          class="btn bg-white p-2 round-45 rounded-circle hstack justify-content-center"><img
+                            src="../assets/images/svgs/icon-be.svg" alt="be"></a></li>
+                      <li><a href="#!"
+                          class="btn bg-white p-2 round-45 rounded-circle hstack justify-content-center"><img
+                            src="../assets/images/svgs/icon-linkedin.svg" alt="linkedin"></a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="meet-team-details">
+                  <h4 class="mb-0">Curiosa y trabajadora</h4>
+                  <p class="mb-0">La niña que preguntaba “¿por qué?”, hacía sus tareas con esmero y ponía amor en cada pequeño detalle.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-xl-3 mb-7 mb-xl-0">
+              <div class="meet-team d-flex flex-column gap-4" data-aos="fade-up" data-aos-delay="400"
+                data-aos-duration="1000">
+                <div class="meet-team-img position-relative overflow-hidden">
+                  <img src="../assets/images/team/team-img-4.jpg" alt="team-img" class="img-fluid w-100">
+                  <div class="meet-team-overlay p-7 d-flex flex-column justify-content-end">
+                    <ul class="social list-unstyled mb-0 hstack gap-2 justify-content-end">
+                      <li><a href="#!"
+                          class="btn bg-white p-2 round-45 rounded-circle hstack justify-content-center"><img
+                            src="../assets/images/svgs/icon-twitter.svg" alt="twitter"></a></li>
+                      <li><a href="#!"
+                          class="btn bg-white p-2 round-45 rounded-circle hstack justify-content-center"><img
+                            src="../assets/images/svgs/icon-be.svg" alt="be"></a></li>
+                      <li><a href="#!"
+                          class="btn bg-white p-2 round-45 rounded-circle hstack justify-content-center"><img
+                            src="../assets/images/svgs/icon-linkedin.svg" alt="linkedin"></a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="meet-team-details">
+                  <h4 class="mb-0">La familia primero</h4>
+                  <p class="mb-0">Fines de semana alrededor de la mesa, domingos de iglesia y esa costumbre hermosa
+                     de estar presentes los unos para los otros.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+  <footer class="footer bg-dark py-5 py-lg-11 py-xl-12">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-5 mb-8 mb-xl-0">
+          <div class="d-flex flex-column gap-8 pe-xl-5">
+            <h2 class="mb-0 text-white">Project_Cruz</h2>
+            <div class="d-flex flex-column gap-2">
+              <a href="https://www.wrappixel.com/" target="_blank" class="link-hover hstack gap-3 text-white fs-5">
+                <iconify-icon icon="lucide:arrow-up-right" class="fs-7 text-primary"></iconify-icon>
+                rje7@calvin.edu
+              </a>
+              <a href="https://maps.app.goo.gl/hpDp81fqzGt5y4bC8" target="_blank"
+                class="link-hover hstack gap-3 text-white fs-5">
+                <iconify-icon icon="lucide:map-pin" class="fs-7 text-primary"></iconify-icon>
+                calvinuni.edu
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-xl-2 mb-8 mb-xl-0">
+          <ul class="footer-menu list-unstyled mb-0 d-flex flex-column gap-2">
+            <li><a class="link-hover fs-5 text-white" href="index.html">Home</a></li>
+            <li><a class="link-hover fs-5 text-white" href="about-us.html">Stories</a></li>
+            <li><a class="link-hover fs-5 text-white" id="services" href="#services">Services</a></li>
+            <li><a class="link-hover fs-5 text-white" href="projects.html">Work</a></li>
+            <!--li><a class="link-hover fs-5 text-white" href="terms-and-conditions.html">Terms</a></li!-->
+            <!--li><a class="link-hover fs-5 text-white" href="privacy-policy.html">Privacy Policy</a></li!-->
+            <!--li><a class="link-hover fs-5 text-white" href="404.html">Error 404</a></li!-->
+          </ul>
+        </div>
+        <div class="col-md-4 col-xl-2 mb-8 mb-xl-0">
+          <ul class="footer-menu list-unstyled mb-0 d-flex flex-column gap-2">
+            <li><a class="link-hover fs-5 text-white" href="#!">Facebook</a></li>
+            <li><a class="link-hover fs-5 text-white" href="#!">Instagram</a></li>
+            <li><a class="link-hover fs-5 text-white" href="#!">Twitter</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4 col-xl-3 mb-8 mb-xl-0">
+          <p class="mb-0 text-white text-opacity-70 text-md-end">©Coppyright 2025</p>
+        </div>
+      </div>
+    </div>
+    <!--p class="mb-0 text-white text-opacity-70 text-md-center mt-10">Distributed by <a class="text-white" href="https://www.themewagon.com" target="_blank" target="_blank">ThemeWagon</a></p!-->
+  </footer>
+
+  <div class="get-template hstack gap-2">
+    
+    <button class="btn bg-primary p-2 round-52 rounded-circle hstack justify-content-center flex-shrink-0"
+      id="scrollToTopBtn">
+      <iconify-icon icon="lucide:arrow-up" class="fs-7 text-dark"></iconify-icon>
+    </button>
+  </div>
+
+
+  <script src="../assets/libs/jquery/dist/jquery.min.js"></script>
+  <script src="../assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="../assets/libs/owl.carousel/dist/owl.carousel.min.js"></script>
+  <script src="../assets/libs/aos-master/dist/aos.js"></script>
+  <script src="../assets/js/custom.js"></script>
+  <!-- solar icons -->
+  <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.8/dist/iconify-icon.min.js"></script>
+</body>
+
+</html>
